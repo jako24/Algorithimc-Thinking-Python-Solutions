@@ -27,7 +27,7 @@ The function loops through each word in the input list, and then loops through a
 
 The function then returns the list of compound words.
 
-###Steps:
+######Steps:
 
 * Define a list of words.
 * Define a function called find_compound_words() that takes a list of words as an argument.
