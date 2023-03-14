@@ -1,5 +1,6 @@
 # Algorithimc-Thinking-Python-Solutions
 This repository contains solutions to all the tasks presented in the book "Algorithmic Thinking" by Daniel Zingaro in Python
+
 Link: https://www.amazon.com/Algorithmic-Thinking-Problem-Based-Daniel-Zingaro-ebook/dp/B085BVJ51Z?ref_=ast_author_dp
 
 ## Snowflakes Code description 
