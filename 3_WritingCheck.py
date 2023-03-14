@@ -1,13 +1,3 @@
-"""
-TASK:
-We have a problem where we are given two strings, with the first one being one character
-longer than the second. Our task is to determine in how many ways we can remove one character
-from the first string to obtain the second string. For example, there is only one way to
-obtain the string 'barkowy' from the string 'barokowy', which is to remove the first
-occurrence of the letter 'o'. On the other hand, the string 'abcdxxxef' can be transformed
-into 'abcdxxef' in three ways, by removing any one of the 'x' letters.
-"""
-
 s1 = 'abcdxxxef'
 s2 = 'abcdxxef'
 
@@ -30,5 +20,4 @@ def writing_check(invalid, valid):
 if __name__ == "__main__":
     main()
 
-# print(writing_check("barokowy", "barkowy"))
 
