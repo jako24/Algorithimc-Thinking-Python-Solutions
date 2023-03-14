@@ -40,3 +40,19 @@ The function then returns the list of compound words.
 * Return the compound_words list.
 * Call the find_compound_words() function with the words list as an argument.
 * Print the returned list.
+
+## WritingCheck Code Description 
+
+The code defines two strings s1 and s2, and s2 has one letter less than s1. There is function writing_check that checks how many ways s1 can be transformed into s2 by removing a single character. It also defines a main function that calls writing_check with s1 and s2 and prints a message indicating the number of possible ways to transform s1 into s2. The code is intended to demonstrate a simple string manipulation problem.
+
+###### Steps:
+
+* Define two strings s1 and s2 with some differences.
+* Define a function writing_check that takes two strings, invalid and valid, as input.
+* Initialize a counter variable count to 0.
+* Iterate over each character in invalid.
+* Check if the invalid string with the ith character removed is equal to valid.
+* If so, increment the count variable.
+* Return the count variable.
+* Define a main function that calls writing_check with s1 and s2.
+* Depending on the output of writing_check, print a message that indicates the number of possible ways to transform s1 into s2.
