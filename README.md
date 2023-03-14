@@ -4,20 +4,14 @@ This repository contains solutions to all the tasks presented in the book "Algor
 Link: https://www.amazon.com/Algorithmic-Thinking-Problem-Based-Daniel-Zingaro-ebook/dp/B085BVJ51Z?ref_=ast_author_dp
 
 ## Snowflakes Code description 
-
-This code defines a class named SnowflakesCounter which takes a list of snowflakes as input. It then defines three methods:
-
-**__init__**: initializes three instance variables of the class: snowflakes, count_snowflakes, and same_list.
-
-**sorted_snowflakes**: sorts each snowflake in the input list in ascending order and returns the sorted list of snowflakes.
-
-**count_equal_lists**: calls the sorted_snowflakes method to obtain the sorted list of snowflakes, then compares each pair of snowflakes in the list to check for equality. If two snowflakes are equal, it adds them to the same_list and increments their count in the count_snowflakes dictionary.
-
-**print_results**: calls the count_equal_lists method, then prints the total number of equal lists and the lists that have a pair in the same_list.
-
-The main function creates an instance of the SnowflakesCounter class with a list of snowflakes as input, and calls the print_results method to display the results.
-
 In summary, this code takes a list of snowflakes as input, and checks if there are any duplicate snowflakes. If duplicates are found, it returns the total number of equal lists and the lists that have a pair.
+
+###### Steps:
+
+* Initialize the class with the given snowflakes list, an empty dictionary to store the count of equal lists, and an empty list to store the equal lists.
+* Define a method called sorted_snowflakes that sorts each snowflake in the list of snowflakes in ascending order and returns a new list containing the sorted snowflakes.
+* Define a method called count_equal_lists that calls the sorted_snowflakes method to get the sorted snowflakes list and loops through the sorted snowflakes to compare each pair of snowflakes. If two snowflakes are equal, the method checks if the sorted snowflake is already in the count_snowflakes dictionary. If it's not, it adds the snowflake to the dictionary with a count of 1 and adds the snowflake to the same_list. If the sorted snowflake is already in the dictionary, it increments the count of the snowflake in the dictionary.
+* Define a method called print_results that calls the count_equal_lists method to count the number of equal lists and print the result. The method also prints the snowflakes that have a pair (i.e., the snowflakes that occur more than once in the original list).
 
 ## CompoundWords Code description 
 
