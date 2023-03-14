@@ -1,8 +1,3 @@
-import time
-
-start_time = time.time()
-
-
 #---------------------------CLASS SOLUTION------------------------------------#
 class SnowflakesCounter:
     def __init__(self, snowflakes):
@@ -39,7 +34,3 @@ class SnowflakesCounter:
 snowflakes = [[1, 2, 3], [4, 5, 6], [1, 2, 3], [7, 8, 9], [4, 5, 6], [3, 2, 1]]
 counter = SnowflakesCounter(snowflakes)
 counter.print_results()
-
-end_time = time.time()
-execution_time = end_time - start_time
-print("Execution time: ", execution_time, "seconds")
