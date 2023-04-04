@@ -50,3 +50,7 @@ The code defines two strings s1 and s2, and s2 has one letter less than s1. Ther
 * Return the count variable.
 * Define a main function that calls writing_check with s1 and s2.
 * Depending on the output of writing_check, print a message that indicates the number of possible ways to transform s1 into s2.
+
+# License
+
+This code is licensed under the MIT License. Feel free to use it for any purpose.
